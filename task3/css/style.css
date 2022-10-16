@@ -1,0 +1,15 @@
+#btns{
+    border-radius:20px;
+    padding:5px 30px;
+}
+#card2{
+    border:none;
+
+}
+.text-center{
+	list-style-type:none;
+	color:rgba(0,0,0,0.5);
+}
+h6{
+	color:blue;
+}
