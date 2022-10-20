@@ -1,0 +1,19 @@
+.card{
+	border:none !important;
+}
+.banner{
+	background-color:#fef8f5 !important;
+}
+.card-body{
+		background-color:#fef8f5 !important;
+}
+#banner-img img{
+	position:relative;
+    animation:move 2s infinite;
+}
+
+@keyframes move{
+    from {bottom:0px;}
+	to {bottom:10px};
+	
+}
