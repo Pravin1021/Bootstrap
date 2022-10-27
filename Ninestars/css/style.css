@@ -284,7 +284,56 @@ summary{
 		height:auto !important;
 		margin-bottom:1rem !important;
 }
-
+.team1{
+	position:relative;
+	width:100%;
+}
+.teaminfo{
+	width:100%;
+	height:auto;
+}
+.teamname{
+	color:white;
+	padding-top:160px;
+	line-height:1.5;
+}
+.teamname{
+	position:absolute;
+	opacity:0;
+	top:0;
+	right:10px;
+	bottom:0;
+	left:10px;
+	text-align:center;
+	background:linear-gradient(rgba(78, 64, 57, 0.1),rgba(78, 64, 57, 0.8)); 
+}
+.team1:hover .teamname{
+	opacity:1;
+	transition:all 0.4s ease;
+}
+.teamicon{
+	width:35px;
+	display:flex;
+	flex-direction:column;
+}
+.teamicon{
+	position:absolute;
+	opacity:0;
+	top:0;
+	right:10px;
+	bottom:0;
+	left:10px;
+	background-color:#4e403987;
+}
+.teamicon iconify-icon{
+	padding:10px;
+	font-size:1.4rem;
+	color:#fff;
+}
+.team1:hover .teamicon{
+	opacity:1;
+	transition:all 0.4s;
+}
 @media(min-width:768px){
 
 .team1{
@@ -338,6 +387,52 @@ summary{
 }
 
 /*Client*/
+.contact-head h5{
+	font-size:2rem !important;
+	font-weight:700 !important;
+	color:#c2b7b1 !important;
+}
+.contact-head h2{
+	color:#4e4039 !important;
+	font-size:2rem !important;
+	font-weight:700 !important;
+
+}
+.contact-head h2::after{
+	content:"";
+	position:relative;
+	width:60px;
+	height:4px;
+	background-color:#eb5d1e;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	left:47%;
+	bottom:-20px;
+}
+.phicon .conicon{
+	border-radius:50% !important;
+	width:50px;
+	height:50px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:#EB5D1E;
+}
+.phicon:hover .conicon{
+	background-color:#EB5D1E !important;
+	color:#fff;
+}
+.icon-con{
+	border-bottom:4px solid #EB5D1E;
+	border-top:4px solid #EB5D1E;
+	
+}
+.in-input{
+	width:100%;
+	padding:0.5rem;
+}
+/*Contact Us*/
 .foot-1 li a{
 	text-decoration:none !important;
 	color:black !important;
@@ -370,6 +465,12 @@ summary{
 	line-height: 40px !important;
 }
 /*Foot*/
+.d-boot{
+	text-decoration:none !important;
+	color:#EB5D1E;
+}
+
+
 
 
 
