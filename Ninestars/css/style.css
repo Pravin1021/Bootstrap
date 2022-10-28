@@ -96,6 +96,12 @@ p{
 	margin-bottom:2.5rem;
 	border-radius:1rem;
 }
+.servicecont:hover{
+	border-bottom:2px solid #eb5d1e;
+	transform:translateY(-5px);
+	transition: 0.2s;
+	margin-top:-10px;
+}
 /*Service*/
 .porthead h5{
 	font-size:2rem !important;
@@ -274,28 +280,21 @@ summary{
 	bottom:-20px;
 }
 .teamimage{
-		display:flex !important;
-		flex-wrap:wrap !important;
-		width:100% !important;
-		justify-content:space-between !important;
+	display:flex !important;
+	flex-wrap:wrap !important;
+	width:100% !important;
+	justify-content:space-between !important;
 }
 .team1{
-		width:100% !important;
-		height:auto !important;
-		margin-bottom:1rem !important;
-}
-.team1{
+	width:100% !important;
+	height:auto !important;
+	margin-bottom:1rem !important;
 	position:relative;
 	width:100%;
 }
 .teaminfo{
 	width:100%;
 	height:auto;
-}
-.teamname{
-	color:white;
-	padding-top:160px;
-	line-height:1.5;
 }
 .teamname{
 	position:absolute;
@@ -305,16 +304,14 @@ summary{
 	bottom:0;
 	left:10px;
 	text-align:center;
-	background:linear-gradient(rgba(78, 64, 57, 0.1),rgba(78, 64, 57, 0.8)); 
+	background:linear-gradient(rgba(78, 64, 57, 0.1),rgba(78, 64, 57, 0.8));
+	color:white;
+	padding-top:160px;
+	line-height:1.5;	
 }
 .team1:hover .teamname{
 	opacity:1;
 	transition:all 0.4s ease;
-}
-.teamicon{
-	width:35px;
-	display:flex;
-	flex-direction:column;
 }
 .teamicon{
 	position:absolute;
@@ -323,6 +320,9 @@ summary{
 	right:10px;
 	bottom:0;
 	left:10px;
+	width:35px;
+	display:flex;
+	flex-direction:column;
 	background-color:#4e403987;
 }
 .teamicon iconify-icon{
@@ -455,6 +455,9 @@ summary{
 	align-items:center !important;
 	color:white !important;
 	background-color:#EB5D1E !important;
+}
+#use-link {
+	margin-left:-2rem !important;
 }
 .iconlast li{
 	padding:0.2rem !important;
