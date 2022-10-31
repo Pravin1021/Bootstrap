@@ -14,7 +14,12 @@ p{
 	position:relative;
     animation:move 2s infinite;
 }
-
+.but-all{
+	background-color:#eb5d1e !important;
+	border:none !important;
+	color:#fff !important;
+	text-decoration:none;
+}
 @keyframes move{
     from {bottom:0px;}
 	to {bottom:10px};
@@ -154,7 +159,7 @@ p{
 .img-1:hover::before{
 	width:94%;
 }
-.pre-color{
+.pfolio .pre-color{
 	color: #EB5D1E !important;
 }
 .folio{
@@ -382,7 +387,7 @@ summary{
 		height:auto;
 		filter:grayscale(50%);
 }
-.client1 img:hover{
+.client1 img:hover{	
 		filter:none;
 }
 
