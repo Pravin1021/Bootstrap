@@ -7,6 +7,9 @@ p{
 .banner{
 	background-color:#fef8f5 !important;
 }
+.sum:hover{
+	color:red !important;
+}
 .card-body{
 		background-color:#fef8f5 !important;
 }
@@ -93,7 +96,8 @@ p{
 	justify-content:center;
 	align-items:center;
 	left:47%;
-	bottom:-20px;
+	top:20px;
+	
 }
 .servicecont{
 	box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
@@ -129,7 +133,7 @@ p{
 	justify-content:center;
 	align-items:center;
 	left:47%;
-	bottom:-20px;
+	top:20px;
 }
 .port{
 	width:100% !important;
@@ -253,7 +257,7 @@ p{
 	justify-content:center;
 	align-items:center;
 	left:47%;
-	bottom:-20px;
+	top:20px;
 }
 summary{
 	color:#343a40 !important;
@@ -281,7 +285,7 @@ summary{
 	justify-content:center;
 	align-items:center;
 	left:47%;
-	bottom:-20px;
+	top:20px;
 }
 .teamimage{
 	display:flex !important;
@@ -369,7 +373,7 @@ summary{
 	align-items:center;
 	
 	left:47%;
-	bottom:-20px;
+	top:20px;
 }
 
 .clientimg{
@@ -412,7 +416,7 @@ summary{
 	justify-content:center;
 	align-items:center;
 	left:47%;
-	bottom:-20px;
+	top:20px;
 }
 .phicon .conicon{
 	border-radius:50% !important;
