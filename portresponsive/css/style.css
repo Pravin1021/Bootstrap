@@ -6,6 +6,9 @@
 .medialink  {
     padding-left: 0;
 }
+.bannername{
+    color:aqua;
+}
 .medialink li a:hover{
     background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
     -webkit-text-fill-color: transparent;
@@ -35,7 +38,7 @@ li{
 .aboutimg img{
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     width: 80%;
-    box-shadow: 3px 3px 5px  rgb(238, 168, 18);
+    box-shadow: 3px 3px 5px  aqua;
 }
 
 h2{
@@ -51,7 +54,7 @@ h2::after{
     left: 0;
     width: 3rem;
     height: 0.2rem;
-    background-color: rgb(238, 168, 18);
+    background-color: aqua;
 }
 .projectimg img:hover{
     transform: scale(1.1);
@@ -69,3 +72,12 @@ h2::after{
 .tel:hover{
     color: aqua !important;
 }
+.location span,.abouticon{
+    color: aqua !important;
+}
+/* .education:hover{
+    box-shadow: 3px 3px 5px 2px aqua;
+    transition: 0.3s;
+} */
+
+
