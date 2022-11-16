@@ -1,6 +1,7 @@
 
 .navlink li a:hover{
    color: aqua !important;
+   text-shadow: 3px 3px 5px aqua;
 }
 .medialink  {
     padding-left: 0;
@@ -50,7 +51,7 @@ h2::after{
     left: 0;
     width: 3rem;
     height: 0.2rem;
-    background-color: rgb(238, 219, 48);
+    background-color: rgb(238, 168, 18);
 }
 .projectimg img:hover{
     transform: scale(1.1);
